@@ -3,6 +3,22 @@
 
 <head>
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -89,9 +105,8 @@
 
 </head>
 
-<body class="text-blueGray-700 antialiased">
-     <div class="relative md:ml-64 bg-blueGray-100">
-        
+<body class="text-blueGray-700 antialiased overflow-x-hidden">
+
       
     <nav class="block py-4 px-6 top-0 bottom-0 w-64 bg-white shadow-xl left-0 fixed flex-row flex-nowrap md:z-10 z-9999 transition-all duration-300 ease-in-out transform md:translate-x-0 -translate-x-full">
         <button class="md:hidden flex items-center justify-center cursor-pointer text-blueGray-700 w-6 h-10 border-l-0 border-r border-t border-b border-solid border-blueGray-100 text-xl leading-none bg-white rounded-r border border-solid border-transparent absolute top-1/2 -right-24-px focus:outline-none z-9998"><i class="fas fa-ellipsis-v"></i></button>
@@ -101,25 +116,25 @@
               <div class="md:flex-col md:min-w-full flex flex-col list-none">
                <ul class="md:flex-col md:min-w-full flex flex-col list-none">
                   <li class="items-center">
-                     <a href="{{ path-general }}/pages/dashboard.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 ">
+                     <a href="../pages/dashboard.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 ">
                      <i class="fas fa-tv mr-2 text-sm opacity-75 "></i>
                      Dashboard
                      </a>
                   </li>
                   <li class="items-center">
-                     <a href="../../pages/settings.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
+                     <a href="../pages/settings.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
                      <i class="fas fa-tools mr-2 text-sm  text-blueGray-300 "></i>
                      Settings
                      </a>
                   </li>
                   <li class="items-center">
-                     <a href="../../pages/tables.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
+                     <a href="../pages/tables.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
                      <i class="fas fa-table mr-2 text-sm  text-blueGray-300 "></i>
                      Tables
                      </a>
                   </li>
                   <li class="items-center">
-                     <a href="../../pages/map.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
+                     <a href="../pages/map.html" class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500">
                      <i class="fas fa-map-marked mr-2 text-sm  text-blueGray-300 "></i>
                      Maps
                      </a>
@@ -130,7 +145,9 @@
         </div>
      </nav>
 
-    
+
+     <div class="relative md:ml-64 bg-blueGray-100">
+
             
 
 <nav class="absolute top-0 left-0 w-full z-10 bg-white lg:flex-row lg:flex-nowrap lg:justify-start flex items-center py-1 px-4 lg:bg-transparent">
@@ -501,6 +518,7 @@
  </footer>
 
       </div>
+     
   
     
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
