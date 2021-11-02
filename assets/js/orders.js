@@ -90,5 +90,5 @@ config = {
       },
     },
   };
-  ctx = document.getElementById("bar-chart").getContext("2d");
+  ctx = document.getElementById("bar-chart");
   window.myBar = new Chart(ctx, config);
