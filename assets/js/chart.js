@@ -98,7 +98,5 @@ var config = {
       },
     },
   };
-
-
-  var ctx = document.getElementById("canvas").getContext("2d");
+  var ctx = document.getElementById("chart-line").getContext("2d");
   window.myLine = new Chart(ctx, config);
